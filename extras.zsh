@@ -12,7 +12,7 @@
 # purposes.
 #
 # If called without an argument, it just advances to the next theme in the list
-function themen_apj() {
+function themen() {
     # Numeric index argument: select theme by index 
     local themes n name
     themes=($(lstheme))
@@ -36,3 +36,5 @@ function themen_apj() {
     APJ_LAST_THEME_N=$n
     theme $name
 }
+
+
