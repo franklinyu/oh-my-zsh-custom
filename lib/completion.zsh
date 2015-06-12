@@ -22,4 +22,4 @@ zstyle ':completion:*' completer _complete _ignored
 zstyle ':completion:*' list-colors ''
 
 # Lowercase matches uppercase but not vice-versa
-zstyle ':completion:*' matcher-list '' 'm:{[:lower:]}={[:upper:]}'
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
